@@ -14,7 +14,7 @@ const platforms = [
       </svg>
     ),
     note: 'Windows 10/11 · 64-bit',
-    url: '/downloads/BrainWeb.ai%20Setup%201.0.0.exe',
+    url: '/downloads/BrainWeb.ai-Setup-1.0.0.exe',
     color: 'from-blue-500 to-cyan-500',
   },
   {
