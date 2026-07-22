@@ -35,7 +35,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 md:pt-20">
 
 
       {/* Background overlay to ensure text is legible over the model */}
@@ -56,14 +56,14 @@ export default function Hero() {
             BrainWeb.ai is now available
           </div>
           
-          <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-[1.1]">
+          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-[1.1]">
             Your multi-agent <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-violet via-brand-magenta to-brand-cyan">
               AI workspace.
             </span>
           </h1>
           
-          <p className="text-lg sm:text-xl text-white/80 max-w-2xl leading-relaxed text-center">
+          <p className="text-base sm:text-lg md:text-xl text-white/80 max-w-2xl leading-relaxed text-center px-4 sm:px-0">
             Run autonomous AI agents natively on your own machine. A fast Next.js UI paired with a powerful Python backend, packaged elegantly for desktop.
           </p>
 

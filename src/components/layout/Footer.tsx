@@ -25,9 +25,9 @@ export default function Footer() {
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-brand-violet/20 blur-[120px] rounded-[100%] pointer-events-none" />
       
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16 text-center md:text-left">
           <div className="col-span-1 md:col-span-2">
-            <Link href="/" className="flex items-center gap-2 mb-4 group inline-flex">
+            <Link href="/" className="flex items-center justify-center md:justify-start gap-2 mb-4 group inline-flex mx-auto md:mx-0">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-violet to-brand-cyan flex items-center justify-center p-[1px]">
                 <div className="w-full h-full bg-brand-dark rounded-[7px] flex items-center justify-center group-hover:bg-brand-dark/80 transition-colors">
                   <span className="text-transparent bg-clip-text bg-gradient-to-br from-brand-violet to-brand-cyan font-bold text-lg leading-none">B</span>
@@ -35,10 +35,10 @@ export default function Footer() {
               </div>
               <span className="font-display font-bold text-xl tracking-tight text-white">BrainWeb.ai</span>
             </Link>
-            <p className="text-white/60 text-sm max-w-sm mb-6">
+            <p className="text-white/60 text-sm max-w-sm mx-auto md:mx-0 mb-6">
               A multi-agent AI workspace that ships as a native desktop app for Windows, macOS, and Linux. Built for performance and extensibility.
             </p>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center justify-center md:justify-start gap-4">
               <a href="https://github.com/masterharry9889/BrainWeb.ai" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-white/80 hover:text-white border border-white/10 hover:border-white/20">
                 <GithubIcon className="w-5 h-5" />
               </a>
@@ -71,7 +71,7 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
           <p className="text-white/40 text-sm">
             © {new Date().getFullYear()} BrainWeb.ai. All rights reserved.
           </p>

@@ -47,6 +47,9 @@ export default function HowItWorks() {
           {/* Connection line for desktop */}
           <div className="hidden md:block absolute top-[40px] left-[10%] w-[80%] h-[2px] bg-gradient-to-r from-brand-violet via-brand-magenta to-brand-cyan opacity-20" />
           
+          {/* Connection line for mobile */}
+          <div className="md:hidden absolute top-[10%] left-1/2 -translate-x-1/2 w-[2px] h-[80%] bg-gradient-to-b from-brand-violet via-brand-magenta to-brand-cyan opacity-20" />
+          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 relative z-10">
             {steps.map((step, index) => (
               <motion.div

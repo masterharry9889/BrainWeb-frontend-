@@ -79,7 +79,7 @@ export default function Features() {
         
         {/* Left Side: Text content */}
         <div>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
             Everything you need for <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-violet to-brand-cyan">
               agentic workflows
@@ -99,7 +99,7 @@ export default function Features() {
         </div>
 
         {/* Right Side: Animated Stack */}
-        <div className="relative h-[400px] w-full flex items-center justify-center">
+        <div className="relative h-[350px] md:h-[400px] w-full flex items-center justify-center">
           <div className="relative w-full max-w-md h-[250px]">
             <AnimatePresence mode="popLayout">
               {features.map((feature, index) => {
@@ -131,7 +131,7 @@ export default function Features() {
                       damping: 25,
                       mass: 1,
                     }}
-                    className={`absolute w-full bg-[#111115] border border-white/10 rounded-2xl p-8 shadow-[0_20px_40px_rgba(0,0,0,0.4)] ${isTop ? 'cursor-pointer' : ''}`}
+                    className={`absolute w-full bg-[#111115] border border-white/10 rounded-2xl p-6 md:p-8 shadow-[0_20px_40px_rgba(0,0,0,0.4)] ${isTop ? 'cursor-pointer' : ''}`}
                     onClick={() => { if (isTop) handleNext() }}
                   >
                     <div className="absolute inset-0 bg-gradient-to-br from-white/[0.03] to-transparent rounded-2xl pointer-events-none" />

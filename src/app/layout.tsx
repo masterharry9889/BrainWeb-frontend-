@@ -15,6 +15,9 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "BrainWeb.ai - Multi-agent AI Workspace",
   description: "A multi-agent AI workspace that ships as a native desktop app for Windows, macOS, and Linux.",
+  icons: {
+    icon: '/spider-logo.webp',
+  },
 };
 
 import CustomCursor from '@/components/ui/CustomCursor';
