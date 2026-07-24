@@ -14,7 +14,7 @@ const platforms = [
       </svg>
     ),
     note: 'Windows 10/11 · 64-bit',
-    url: 'https://github.com/masterharry9889/BrainWeb.ai/releases/download/V1.0.0/BrainWeb.ai-Setup-1.0.0.exe',
+    url: 'https://github.com/masterharry9889/BrainWeb.ai/releases/download/V1.0.0/BrainWeb.ai.Setup.1.0.0.exe',
     color: 'from-blue-500 to-cyan-500',
   },
   {
