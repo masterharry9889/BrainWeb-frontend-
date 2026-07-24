@@ -14,7 +14,7 @@ const platforms = [
       </svg>
     ),
     note: 'Windows 10/11 · 64-bit',
-    url: '/downloads/BrainWeb.ai-Setup-1.0.0.exe',
+    url: 'https://github.com/masterharry9889/BrainWeb.ai/releases/download/v1.0.0/BrainWeb.ai-Setup-1.0.0.exe',
     color: 'from-blue-500 to-cyan-500',
   },
   {
@@ -26,7 +26,7 @@ const platforms = [
       </svg>
     ),
     note: 'macOS 12+ · Apple Silicon & Intel',
-    url: '/downloads/BrainWeb.ai-1.0.0-arm64.dmg',
+    url: 'https://github.com/masterharry9889/BrainWeb.ai/releases/download/v1.0.0/BrainWeb.ai-1.0.0-arm64.dmg',
     color: 'from-gray-300 to-gray-500',
   },
   {
@@ -38,7 +38,7 @@ const platforms = [
       </svg>
     ),
     note: 'AppImage / .deb',
-    url: '/downloads/BrainWeb.ai-1.0.0.AppImage',
+    url: 'https://github.com/masterharry9889/BrainWeb.ai/releases/download/v1.0.0/BrainWeb.ai-1.0.0.AppImage',
     color: 'from-yellow-400 to-orange-500',
   }
 ];
